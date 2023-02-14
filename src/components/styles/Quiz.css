@@ -1,0 +1,36 @@
+.quiz-container {
+  width: 80%;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template: auto / auto;
+}
+
+.quiz-inner {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.confetti {
+  width: 100vw;
+  height: 95vh;
+}
+
+@media (max-width: 700px) {
+  .quiz-container {
+    position: static;
+    transform: none;
+    margin: auto;
+  }
+
+  .quiz-inner,
+  .quiz-inner button {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,8 @@
+.question-container {
+  width: 100%;
+  border-bottom: 1px solid #dbdef0;
+}
+
+.question {
+  margin: 0.8rem 0;
+}
