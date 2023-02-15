@@ -1,6 +1,6 @@
-https://quizzical-ph.vercel.app/
-
 QUIZZICAL
+
+https://quizzical-ph.vercel.app/
 
 Quzzical is a web application that allows users to test their knowledge by answering trivia questions. The app fetches questions from an external API and displays them on the website, allowing users to select their answers and receive feedback on their performance.
 
